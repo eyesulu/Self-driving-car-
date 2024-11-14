@@ -9,6 +9,7 @@ For more information, read the report.
 - [Hardware](#hardware)
 - [Software](#software)
 - [Code Structure](#code-structure)
+- [Electric Circuit Schematic](#electric-circuit-schematic)
 - [Performance](#performance)
 
 ## Overview 
@@ -49,6 +50,10 @@ The source code for each module can be found in this repository.
 - **CCP_Ping.s**: Sets up Capture, Compare, and Pulse-Width Modulation (CCP) functions and interrupt routines for the operation of the PING))) ultrasonic distance sensor.
 - **Ping.s**: Operates the ultrasonic distance sensor to detect obstacles in the car’s path.
 - **Delay.s**: Implements a 10ms delay to allow time for the reflected pulse from the ultrasonic sensor to be detected.
+
+## Electric Circuit Schematic
+
+![Schematic](Schematic.png)
 
 ## Performance 
 
